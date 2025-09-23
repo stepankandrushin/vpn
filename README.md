@@ -79,4 +79,10 @@ sudo sh -c "iptables-save > /etc/iptables/rules.v4"
 
 # just to know: Lists all chains in the filter table with packet and byte counters.
 iptables -L -n -v
+
+# Clone this repository so that you will have scripts to add new clients.
+git clone https://github.com/bsnjoy/vpn.git
+cd vpn
+# create new client connection:
+./add-vpn-client-auto.sh
 ```
