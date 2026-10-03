@@ -81,7 +81,7 @@ sudo sh -c "iptables-save > /etc/iptables/rules.v4"
 iptables -L -n -v
 
 # Clone this repository so that you will have scripts to add new clients.
-git clone https://github.com/bsnjoy/vpn.git
+git clone https://github.com/stepankandrushin/vpn.git
 cd vpn
 # create new client connection:
 ./add-vpn-client-auto.sh
